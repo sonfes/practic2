@@ -1,0 +1,19 @@
+﻿<Window x:Class="WP_T_F_first.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WP_T_F_first"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Ellipse x:Name="cRed" HorizontalAlignment="Left" Height="64" Margin="157,46,0,0" Stroke="Black" VerticalAlignment="Top" Width="64" Fill="White"/>
+        <Ellipse x:Name="cYellow" HorizontalAlignment="Left" Height="64" Margin="157,130,0,0" Stroke="Black" VerticalAlignment="Top" Width="64" Fill="White"/>
+        <Ellipse x:Name="cGreen" HorizontalAlignment="Left" Height="64" Margin="157,217,0,0" Stroke="Black" VerticalAlignment="Top" Width="64" Fill="White"/>
+        <Button Content="Red" Click="Button_Clicked" HorizontalAlignment="Left" Margin="51,54,0,0" VerticalAlignment="Top" Height="48" Width="48"/>
+        <Button Content="Yellow" Click="Button_Clicked" HorizontalAlignment="Left" Margin="51,138,0,0" VerticalAlignment="Top" Height="48" Width="48"/>
+        <Button Content="Green" Click="Button_Clicked" HorizontalAlignment="Left" Margin="51,225,0,0" VerticalAlignment="Top" Height="48" Width="48"/>
+        <Button Content="Go Back" Click="Button_Clicked" HorizontalAlignment="Left" Height="127" Margin="490,78,0,0" VerticalAlignment="Top" Width="128" Background="#FFF382E5"/>
+
+    </Grid>
+</Window>

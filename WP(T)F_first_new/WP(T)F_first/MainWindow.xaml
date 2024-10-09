@@ -1,0 +1,15 @@
+﻿<Window x:Class="WP_T_F_first.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WP_T_F_first"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="doNotPressButton" Click="Button_Click" Content="Do Not Press" HorizontalAlignment="Left" Height="68" Margin="72,217,0,0" VerticalAlignment="Top" Width="167" Background="#FFB71AB1"/>
+        <Button x:Name="trafficLightButton" Click="Button_Click" Content="Taffic Light" HorizontalAlignment="Left" Height="68" Margin="324,217,0,0" VerticalAlignment="Top" Width="196" Background="#FFF12AAA"/>
+        <Button x:Name="runAwayButton" Click="Button_Click" Content="Running Away" HorizontalAlignment="Left" Height="68" Margin="620,217,0,0" VerticalAlignment="Top" Width="106" Background="#FFFF67EB"/>
+        <TextBox HorizontalAlignment="Center" Height="101" Margin="0,53,0,0" TextWrapping="Wrap" Text="Choose whatever you want, I will work" VerticalAlignment="Top" Width="504" TextChanged="TextBox_TextChanged" TextAlignment="Center"/>
+    </Grid>
+</Window>
